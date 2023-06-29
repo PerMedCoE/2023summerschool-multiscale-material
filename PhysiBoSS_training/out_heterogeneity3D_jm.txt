@@ -1,0 +1,94 @@
+Using config file ./config/PhysiCell_settings.xml ... 
+1
+dc? 1
+User parameters in XML config file: 
+Bool parameters:: 
+
+Int parameters:: 
+random_seed: 0 [dimensionless]
+
+Double parameters:: 
+tumor_radius: 150 [micron]
+oncoprotein_mean: 1 [dimensionless]
+oncoprotein_sd: 0.25 [dimensionless]
+oncoprotein_min: 0 [dimensionless]
+oncoprotein_max: 2 [dimensionless]
+
+String parameters:: 
+
+
+which boundaries?
+1 1 1 1 1 1
+
+Microenvironment summary: microenvironment: 
+
+Mesh information: 
+type: uniform Cartesian
+Domain: [-250,250] micron x [-250,250] micron x [-250,250] micron
+   resolution: dx = 20 micron
+   voxels: 15625
+   voxel faces: 0
+   volume: 1.25e+08 cubic micron
+Densities: (1 total)
+   oxygen:
+     units: mmHg
+     diffusion coefficient: 100000 micron^2 / min
+     decay rate: 0.1 min^-1
+     diffusion length scale: 1000 micron
+     initial condition: 38 mmHg
+     boundary condition: 38 mmHg (enabled: true)
+
+creating 3963 closely-packed tumor cells ... 
+
+Oncoprotein summary: 
+===================
+mean: 0.998376
+standard deviation: 0.246873
+[min max]: [0.0116867 1.8209]
+
+Using PhysiCell version 1.9.0
+	Please cite DOI: 10.1371/journal.pcbi.1005991
+	Project website: http://PhysiCell.MathCancer.org
+
+See ALL_CITATIONS.txt for this list.
+current simulated time: 0 min (max: 720 min)
+total agents: 3963
+interval wall time: 0 days, 0 hours, 0 minutes, and 1.3346e-05 seconds 
+total wall time: 0 days, 0 hours, 0 minutes, and 1.908e-05 seconds 
+
+
+Using method diffusion_decay_solver__constant_coefficients_LOD_3D (implicit 3-D LOD with Thomas Algorithm) ... 
+
+current simulated time: 120 min (max: 720 min)
+total agents: 4196
+interval wall time: 0 days, 0 hours, 0 minutes, and 8.55084 seconds 
+total wall time: 0 days, 0 hours, 0 minutes, and 8.55086 seconds 
+
+current simulated time: 240 min (max: 720 min)
+total agents: 4415
+interval wall time: 0 days, 0 hours, 0 minutes, and 8.77144 seconds 
+total wall time: 0 days, 0 hours, 0 minutes, and 17.3223 seconds 
+
+current simulated time: 360 min (max: 720 min)
+total agents: 4669
+interval wall time: 0 days, 0 hours, 0 minutes, and 9.48109 seconds 
+total wall time: 0 days, 0 hours, 0 minutes, and 26.8034 seconds 
+
+current simulated time: 480 min (max: 720 min)
+total agents: 4871
+interval wall time: 0 days, 0 hours, 0 minutes, and 10.1552 seconds 
+total wall time: 0 days, 0 hours, 0 minutes, and 36.9586 seconds 
+
+current simulated time: 600 min (max: 720 min)
+total agents: 5136
+interval wall time: 0 days, 0 hours, 0 minutes, and 10.3277 seconds 
+total wall time: 0 days, 0 hours, 0 minutes, and 47.2863 seconds 
+
+current simulated time: 720 min (max: 720 min)
+total agents: 5411
+interval wall time: 0 days, 0 hours, 0 minutes, and 10.6636 seconds 
+total wall time: 0 days, 0 hours, 0 minutes, and 57.9499 seconds 
+
+
+Total simulation runtime: 
+0 days, 0 hours, 0 minutes, and 58.0045 seconds 
