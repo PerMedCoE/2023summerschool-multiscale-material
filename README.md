@@ -1,4 +1,4 @@
-# Learning material for the 2023 PerMedCoE Summer School, June 26-30 at Montanyà, Spain
+# Learning materials for the 2023 PerMedCoE Summer School, June 26-30 at Montanyà, Spain
 
 This repository collects subsets of these different repositories (different licenses apply):
 - [https://github.com/PhysiBoSS/PhysiBoSS](https://github.com/PhysiBoSS/PhysiBoSS)
