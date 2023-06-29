@@ -9,3 +9,5 @@ This repository collects subsets of these different repositories (different lice
 - [https://github.com/PhysiBoSS/pctk](https://github.com/PhysiBoSS/pctk)
 - [https://github.com/sysbio-curie/PROFILE](https://github.com/sysbio-curie/PROFILE)
 - [https://github.com/ArnauMontagud/PROFILE_v2](https://github.com/ArnauMontagud/PROFILE_v2)
+
+The Living document used in this practical is available here:[https://bit.ly/23permedcoeschool](https://bit.ly/23permedcoeschool)
